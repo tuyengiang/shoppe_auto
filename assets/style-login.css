@@ -38,6 +38,8 @@ body.wapper-login {
     height: 50px;
     border: 2px solid #537b35;
     outline: none;
+    color:#fff;
+    font-size:16px;
 }
 .form-content .form-lg input#input-password {
     background: url(../images/password.png) no-repeat 460px 11px;
@@ -45,6 +47,8 @@ body.wapper-login {
     height: 50px;
     border: 2px solid #537b35;
     outline: none;
+    color:#fff;
+    font-size:16px;
 }
 .form-content .form-lg input#input-user::placeholder,.form-content .form-lg input#input-password::placeholder {
     color: #fff;
