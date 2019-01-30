@@ -1,0 +1,77 @@
+body.wapper-login {
+    background: url(../images/b2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    color: #FFF;
+}
+.login-title {
+    text-align: center;
+    height: 50px;
+    font-size: 35px;
+    margin-bottom:30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.form-content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2em;
+    margin: 20px 0 0 0;
+}
+.form-content .form-lg {
+    margin-bottom: 40px !important;
+        text-align: center;
+}
+.form-content .form-lg h2 {
+    text-align: center;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.form-content .form-lg input#input-user {
+    background: url(../images/e-mail.png) no-repeat 460px 11px;
+    background-size: 25px;
+    height: 50px;
+    border: 2px solid #537b35;
+    outline: none;
+}
+.form-content .form-lg input#input-password {
+    background: url(../images/password.png) no-repeat 460px 11px;
+    background-size: 25px;
+    height: 50px;
+    border: 2px solid #537b35;
+    outline: none;
+}
+.form-content .form-lg input#input-user::placeholder,.form-content .form-lg input#input-password::placeholder {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+.form-lg button.btn-login {
+    margin: auto;
+    width: 200px;
+    height: 40px;
+    background: #537b35;
+    display: block;
+    border: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    outline: none;
+    float: none;
+    cursor: pointer;
+}
+.form-lg button.btn-login:hover{
+	background: #fff;
+	color:#537b35;
+}
+.form-lg a.btn-re {
+    padding: 6px 30px;
+    border: 1px solid #ffff;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+}

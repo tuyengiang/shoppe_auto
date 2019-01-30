@@ -1,27 +1,45 @@
-
-	<?php $title="Đăng nhập vào hệ thống";  require_once('template-parts/header.php'); ?>
-	<main class="main-container">
-		<section class="header-title">
-			<div class="container">
-				<div class="row">
-					<div class="cell-title">Đăng nhập vào hệ thống</div>
-					<div class="col-xs-12 col-md-6 col-md-offset-3 login-container">
-						<div class="form-group">
-							<label>Tên đăng nhập</label>
-							<input type="text" class="form-control" name="username" placeholder="Tên đăng nhập" required="">
-						</div>
-						<div class="form-group">
-							<label>Mật khẩu</label>
-							<input type="password" class="form-control" name="password" placeholder="Mật khẩu" required="">
-						</div>
-						<div class="form-group">
-							<button type="submit" name="login" class="btn btn-success">Đăng nhập</button>
-							<a href="dang-ky.php" class="btn btn-danger">Đăng ký</a>
-						</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title><?php $title="Đăng nhập vào hệ thống"; if(isset($title)){ echo $title; }else{ echo "Trang chủ"; }?></title>
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+	<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/style-login.css">
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
+	<link rel="stylesheet" type="text/css" href="fonts/awesome/css/font-awesome.css">
+	<meta name="theme-color" content="#EE4D2D"/>
+	<meta name="msaplication-navbutton-color" content="#EE4D2D"/>
+	<meta name="apple-mobile-app-status-style-bars" name="#EE4D2D"/>
+</head>
+<body class="wapper-login">
+	<section class="login-container">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-md-6 col-md-offset-3">
+					<div class="login-title">Tool Shope</div>
+					<div class="form-content">
+						<form method="post">
+							<div class="form-group form-lg">
+								<h2>Đăng nhập</h2>
+							</div>
+							<div class="form-group form-lg">
+								<input class="form-control" type="email" id="input-user" placeholder="Email" name="username">
+							</div>
+							<div class="form-group form-lg">
+								<input class="form-control" type="text" id="input-password" placeholder="Mật khẩu" name="username">
+							</div>
+							<div class="form-group form-lg">
+								<button type="submit" class="btn-login">Đăng nhập</button>
+							</div>
+							<div class="form-group form-lg">
+								<span>Tạo tài khoản mới <i class="fa fa-long-arrow-right"></i>  </span> <span><a href="/shope/dang-ky.php" class="btn-re">Đăng ký</a></span>
+							</div>
+						</form>
 					</div>
 				</div>
-			</div>
-		</section>
-	</main>
+			</div> 
+		</div>
+	</section>
 </body>
 </html>
